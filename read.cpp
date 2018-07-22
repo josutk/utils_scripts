@@ -20,7 +20,7 @@ int main(int argc, char* argv[] ){
 	
 	const PdfArray &array =fieldsValue->GetArray();
 
-	string filterString;
+	string contentsString;
 
 	for(int i= 0 ; i<array.size();i++){
 		const PdfObject * const obj = pdf.GetObjects().GetObject(array[i].GetReference());
